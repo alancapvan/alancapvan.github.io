@@ -2,200 +2,39 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>
-    About – Alan Van
-  </title>
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <style>
-    body {
-      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-      margin: 0;
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    header {
-      width: 100%;
-      position: fixed;
-      top: 0;
-      background-color: #f1f1f1;
-      border-bottom: 1px solid #ddd;
-      z-index: 1000;
-    }
-
-    .navbar {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem 0;
-      font-weight: bold;
-    }
-
-    .navbar a {
-      text-decoration: none;
-      color: #2971ae;
-    }
-
-    .navbar a:hover {
-      text-decoration: underline;
-    }
-
-    .navbar a.active {
-      color: #1c4c7c;
-      text-decoration: underline;
-    }
-
-    .container {
-      max-width: 700px;
-      padding-top: 5rem;
-      text-align: center;
-    }
-
-    footer {
-      width: 100%;
-      background-color: #f1f1f1;
-      padding: 1rem 2rem;
-      margin-top: 3rem;
-      border-top: 1px solid #ddd;
-      box-sizing: border-box;
-    }
-
-    .footer-content {
-      max-width: 700px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      font-size: 0.9rem;
-    }
-  </style>
-  <style>
-    /* Navbar Styling */
-    header {
-      width: 100%;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 1000;
-    }
-
-    .navbar {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      background-color: #f1f1f1;
-      padding: 1rem 0;
-      font-weight: bold;
-      border-bottom: 1px solid #ddd;
-      width: 100%;
-    }
-
-    .navbar a {
-      text-decoration: none;
-      color: #2971ae;
-      transition: color 0.2s ease;
-    }
-
-    .navbar a:hover {
-      text-decoration: underline;
-    }
-
-    .navbar a.active {
-      color: #1c4c7c;
-      text-decoration: underline;
-    }
-
-    /* Footer Styling */
-    .footer {
-      width: 100%;
-      background-color: #f1f1f1;
-      padding: 2rem 2rem;
-      margin-top: 4rem;
-      border-top: 1px solid #ddd;
-      box-sizing: border-box;
-    }
-
-    .footer-content {
-      max-width: 700px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      font-size: 0.9rem;
-    }
-  </style>
+    <meta charset="utf-8" />
+    <title>
+        About – Alan Van
+    </title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script defer="True" src="include.js">
+    </script>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar">
-      <a href="index.html">
-        Home
-      </a>
-      <a href="about.html">
-        About
-      </a>
-      <a href="projects.html">
-        Projects
-      </a>
-      <a href="education.html">
-        Education
-      </a>
-      <a href="resume.pdf">
-        Resume
-      </a>
-      <a href="mailto:alancapvan@gmail.com">
-        Contact
-      </a>
-    </nav>
-  </header>
-  <div class="container">
-    <h1>
-      About Me
-    </h1>
-    <p>
-      I’m Alan Van, a Computer Science student at the University of Massachusetts Lowell with a focus on Cybersecurity.
-    </p>
-    <p>
-      Beyond academics, I’m constantly building, whether it’s code, custom PCs, or personal projects.
-      I’m passionate about understanding how systems work under the hood and finding practical ways to apply that
-      knowledge.
-    </p>
-    <p>
-      Through hands-on experiences like co-founding Haverhill Computers and completing a range of coding projects
-      through school assignments,
-      I’m learning what it takes to build real things, both in software and hardware.
-    </p>
-  </div>
-  <footer class="footer">
-    <div class="footer-content">
-      <div>
-        <h2>
-          Location
-        </h2>
+    <header id="header">
+    </header>
+    <div class="container">
+        <h1>
+            About Me
+        </h1>
         <p>
-          Greater Boston
+            I’m Alan Van, a Computer Science student at the University of Massachusetts Lowell with a focus on
+            Cybersecurity.
         </p>
-      </div>
-      <div>
-        <h2>
-          Contact
-        </h2>
         <p>
-          <a href="mailto:alancapvan@gmail.com">
-            Email
-          </a>
-          <br />
-          <a href="https://www.linkedin.com/in/alan--van/">
-            LinkedIn
-          </a>
+            Beyond academics, I’m constantly building, whether it’s code, custom PCs, or personal projects.
+            I’m passionate about understanding how systems work under the hood and finding practical ways to apply that
+            knowledge.
         </p>
-      </div>
+        <p>
+            Through hands-on experiences like co-founding Haverhill Computers and completing a range of coding projects
+            through school assignments,
+            I’m learning what it takes to build real things, both in software and hardware.
+        </p>
     </div>
-  </footer>
+    <div id="footer">
+    </div>
 </body>
 
 </html>
