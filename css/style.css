@@ -71,14 +71,27 @@ strong {
 
 /* Footer styles */
 footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
     width: 100%;
     background-color: #f1f1f1;
-    padding: 1rem 0;
     border-top: 1px solid #ddd;
-    text-align: center;
     font-size: 0.9rem;
     color: #444;
-}  
+    box-sizing: border-box;
+}
+
+footer h2 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+    min-width: 200px;
+}
 
 footer a {
     color: #2971ae;
