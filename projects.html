@@ -5,40 +5,70 @@
         <title>My Projects - Alan Van</title>
         <style>
             body {
-                font-family: Arial, Helvetica, sans-serif;
-                background-color: #f8f9fa;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2rem;
                 margin: 0;
+                font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+                background-color: #f8f9fa;
+                color: #222;
+                min-height: 100vh;
             }
-            .project {
-                background: white;
-                padding: 1rem;
-                margin-bottom: 1rem;
-                border-radius: 8px;
-                box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+            .content {
+                max-width: 700px;
+                width: 100%;
             }
             h1 {
                 color: #2c3e50;
             }
+            .project {
+                background: white;
+                padding: 1.2rem;
+                margin: 1.5rem 0;
+                border-radius: 8px;
+                box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            }
+            .project h3 {
+                margin-top: 0;
+            }
+            a {
+                color: #2971ae;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .back-link {
+                margin-top: 2rem;
+                display: block;
+                text-align: center;
+                font-weight: bold;
+            }
         </style>
     </head>
+
     <body>
-        <h1>Featured Projects</h1>
-
-        <div class = "project">
-            <h3>Haverhill Computers</h3>
-            <p>
-                Here is a small computer computer I made with some friends.
-            </p>
+        <div class="content">
+            <h1>Featured Projects</h1>
+        
+            <div class="project">
+                <h3>🖥️ Haverhill Computers</h3>
+                <p>
+                    Haverhill Computers is where passion meets practice. I started it with two friends who share a love for computers, 
+                    from building and repairing hardware to designing software and managing digital tools. Through this startup, 
+                    I’ve gained real experience in PC assembly, troubleshooting, web development, branding, and running a business from the ground up.
+                </p>
+            </div>
+        
+            <div class="project">
+                <h3>📚 COMP.2010 Project Portfolio</h3>
+                <p>
+                A full compilation of my course projects in C++, compiled in LaTeX. Topics include memory management, class design, and operator overloading.
+                </p>
+            </div>
+      
+            <a class="back-link" href="index.html">← Back to Home</a>
         </div>
-
-        <div class = "project">
-            <h3>COMP.2010 Project Portfolio</h3>
-            <p>
-                Here's a collection of the projects I've done, written in LaTeX.
-            </p>
-        </div>
-
-
-
     </body>
 </html>
