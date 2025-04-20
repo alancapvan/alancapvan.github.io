@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website, built to showcase my projects, academic background, and interests in computer science and cybersecurity.
 
-This is the first website I’ve ever built, and it also marks my introduction to HTML and CSS. It’s a hands-on way for me to explore front-end development while learning how to design and deploy a website from scratch.
+This is the first website I’ve ever built, and it also marks my introduction to HTML, CSS, and JavaScript. It’s a hands-on way for me to explore front-end development while learning how to design and deploy a website from scratch.
 
 🔗 Live site: [https://alancapvan.github.io](https://alancapvan.github.io)
 
@@ -26,17 +26,9 @@ This site is written in plain HTML, CSS, and JavaScript and is hosted on [GitHub
 ## 🎯 Purpose
 
 - Learn how to build and structure a real website
-- Get comfortable with writing HTML and CSS
+- Get comfortable with writing HTML, CSS, & JavaScript
 - Practice responsive design and personal branding
 - Showcase my work in a professional format
-
----
-
-## 🛠 Tech Stack
-
-- HTML5
-- CSS3
-- GitHub Pages (for free hosting and version control)
 
 ---
 
