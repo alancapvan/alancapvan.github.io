@@ -10,7 +10,7 @@ This is the first website I’ve ever built, and it also marks my introduction t
 
 ## 📄 About This Site
 
-This site is written in plain HTML and CSS and is hosted on [GitHub Pages](https://pages.github.com). It’s fully static and intentionally lightweight, designed for clarity and professionalism.
+This site is written in plain HTML, CSS, and JavaScript and is hosted on [GitHub Pages](https://pages.github.com). It’s fully static and intentionally lightweight, designed for clarity and professionalism.
 
 ### Sections:
 
