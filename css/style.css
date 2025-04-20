@@ -87,7 +87,7 @@ strong {
 footer {
     display: flex;
     justify-content: center;
-    gap:4rem
+    gap: 4rem;
     align-items: flex-start;
     flex-wrap: wrap;
 
