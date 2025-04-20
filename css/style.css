@@ -86,7 +86,8 @@ strong {
 /* Footer styles */
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap:4rem
     align-items: flex-start;
     flex-wrap: wrap;
 
