@@ -75,11 +75,10 @@ footer {
     background-color: #f1f1f1;
     padding: 1rem 0;
     border-top: 1px solid #ddd;
-    margin-top: 4rem;
     text-align: center;
     font-size: 0.9rem;
     color: #444;
-}
+}  
 
 footer a {
     color: #2971ae;
