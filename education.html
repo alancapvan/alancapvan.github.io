@@ -2,9 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Education – Alan Van</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <title>
+    Education – Alan Van
+  </title>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
   <style>
     body {
       font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -78,50 +80,150 @@
       font-size: 0.9rem;
     }
   </style>
+  <style>
+    /* Navbar Styling */
+    header {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #f1f1f1;
+      padding: 1rem 0;
+      font-weight: bold;
+      border-bottom: 1px solid #ddd;
+      width: 100%;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #2971ae;
+      transition: color 0.2s ease;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar a.active {
+      color: #1c4c7c;
+      text-decoration: underline;
+    }
+
+    /* Footer Styling */
+    .footer {
+      width: 100%;
+      background-color: #f1f1f1;
+      padding: 2rem 2rem;
+      margin-top: 4rem;
+      border-top: 1px solid #ddd;
+      box-sizing: border-box;
+    }
+
+    .footer-content {
+      max-width: 700px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 
 <body>
-
   <header>
     <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="education.html" class="active">Education</a>
-      <a href="resume.pdf">Resume</a>
-      <a href="mailto:alancapvan@gmail.com">Contact</a>
+      <a href="index.html">
+        Home
+      </a>
+      <a href="about.html">
+        About
+      </a>
+      <a href="projects.html">
+        Projects
+      </a>
+      <a href="education.html">
+        Education
+      </a>
+      <a href="resume.pdf">
+        Resume
+      </a>
+      <a href="mailto:alancapvan@gmail.com">
+        Contact
+      </a>
     </nav>
   </header>
-
   <div class="container">
-    <h1>Education</h1>
-
-    <h2>University of Massachusetts Lowell</h2>
-    <p><strong>Bachelor of Science in Computer Science</strong></p>
-    <p>Concentration: Cybersecurity</p>
-    <p>Expected Graduation: May 2027</p>
-
-    <h2>Relevant Courses</h2>
+    <h1>
+      Education
+    </h1>
+    <h2>
+      University of Massachusetts Lowell
+    </h2>
+    <p>
+      <strong>
+        Bachelor of Science in Computer Science
+      </strong>
+    </p>
+    <p>
+      Concentration: Cybersecurity
+    </p>
+    <p>
+      Expected Graduation: May 2027
+    </p>
+    <h2>
+      Relevant Courses
+    </h2>
     <ul>
-      <li>Computing I–IV (C++, SFML, Object-Oriented Programming)</li>
-      <li>Assembly Language & Computer Organization</li>
-      <li>Logic Design & Digital Systems</li>
-      <li>Cyber Crime Investigation</li>
-      <li>Cyber Crime Investigation</li>
-      <li>Computer & Network Security</li>
+      <li>
+        Computing I–IV (C++, SFML, Object-Oriented Programming)
+      </li>
+      <li>
+        Assembly Language &amp; Computer Organization
+      </li>
+      <li>
+        Logic Design &amp; Digital Systems
+      </li>
+      <li>
+        Cyber Crime Investigation
+      </li>
+      <li>
+        Cyber Crime Investigation
+      </li>
+      <li>
+        Computer &amp; Network Security
+      </li>
     </ul>
   </div>
-  <footer>
+  <footer class="footer">
     <div class="footer-content">
       <div>
-        <h2>Location</h2>
-        <p>Greater Boston</p>
+        <h2>
+          Location
+        </h2>
+        <p>
+          Greater Boston
+        </p>
       </div>
       <div>
-        <h2>Contact</h2>
+        <h2>
+          Contact
+        </h2>
         <p>
-          <a href="mailto:alancapvan@gmail.com">Email</a><br>
-          <a href="https://www.linkedin.com/in/alan--van/">LinkedIn</a>
+          <a href="mailto:alancapvan@gmail.com">
+            Email
+          </a>
+          <br />
+          <a href="https://www.linkedin.com/in/alan--van/">
+            LinkedIn
+          </a>
         </p>
       </div>
     </div>
