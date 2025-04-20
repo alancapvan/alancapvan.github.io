@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Education – Alan Van</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      background-color: #f1f1f1;
+      border-bottom: 1px solid #ddd;
+      z-index: 1000;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      font-weight: bold;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #2971ae;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar a.active {
+      color: #1c4c7c;
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 700px;
+      padding-top: 5rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      color: #2c3e50;
+    }
+
+    ul {
+      list-style-type: square;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html" class="active">Education</a>
+      <a href="resume.pdf">Resume</a>
+      <a href="mailto:alancapvan@gmail.com">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Education</h1>
+
+    <h2>University of Massachusetts Lowell</h2>
+    <p><strong>Bachelor of Science in Computer Science</strong></p>
+    <p>Concentration: Cybersecurity</p>
+    <p>Expected Graduation: May 2027</p>
+
+    <h2>Relevant Courses</h2>
+    <ul>
+      <li>Computing I–IV (C++, SFML, Object-Oriented Design)</li>
+      <li>Assembly Language & Computer Organization</li>
+      <li>Logic Design & Digital Systems</li>
+      <li>Cyber Crime Investigation</li>
+      <li>Computer & Network Security</li>
+    </ul>
+  </div>
+
+</body>
+</html>

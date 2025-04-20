@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About – Alan Van</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      background-color: #f1f1f1;
+      border-bottom: 1px solid #ddd;
+      z-index: 1000;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      font-weight: bold;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #2971ae;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar a.active {
+      color: #1c4c7c;
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 700px;
+      padding-top: 5rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="resume.pdf">Resume</a>
+      <a href="mailto:alancapvan@gmail.com">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>About Me</h1>
+    <p>
+      I’m Alan Van, a Computer Science student at the University of Massachusetts Lowell with a focus on Cybersecurity.
+    </p>
+    <p>
+      Beyond academics, I’m constantly building — whether it’s code, custom PCs, or personal projects. I’m passionate about understanding how systems work under the hood and finding practical ways to apply that knowledge.
+    </p>
+    <p>
+      Through hands-on experiences like co-founding Haverhill Computers and completing a range of C++ and assembly projects, I’m learning what it takes to build real things — both in software and hardware.
+    </p>
+  </div>
+
+</body>
+</html>
