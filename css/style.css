@@ -83,16 +83,6 @@ footer {
     box-sizing: border-box;
 }
 
-footer h2 {
-    font-size: 1rem;
-    margin-bottom: 0.25rem;
-}
-
-.footer-left, .footer-right {
-    flex: 1;
-    min-width: 200px;
-}
-
 footer a {
     color: #2971ae;
     margin: 0 0.25rem;
