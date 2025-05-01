@@ -37,4 +37,5 @@ This site is written in plain HTML, CSS, and JavaScript and is hosted on [GitHub
 If you’d like to connect:
 
 - 📧 Email: [alancapvan@gmail.com](mailto:alancapvan@gmail.com)
-- 🔗 LinkedIn: [linkedin.com/in/alan--van](https://www.linkedin.com/in/alan--van/)
+- 💼 LinkedIn: [linkedin.com/in/alan--van](https://www.linkedin.com/in/alan--van/)
+- 💻 GitHub: [github.com/alancapvan] https://github.com/alancapvan
