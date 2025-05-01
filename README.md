@@ -19,7 +19,7 @@ This site is written in plain HTML, CSS, and JavaScript and is hosted on [GitHub
 - **Projects** – Summaries of technical and academic work
 - **Education** – My degree details and relevant courses
 - **Resume** – Link to my downloadable resume PDF
-- **Contact** – Email and LinkedIn
+- **Contact** – Email, LinkedIn, GitHub
 
 ---
 
@@ -38,4 +38,4 @@ If you’d like to connect:
 
 - 📧 Email: [alancapvan@gmail.com](mailto:alancapvan@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/alan--van](https://www.linkedin.com/in/alan--van/)
-- 💻 GitHub: [github.com/alancapvan] https://github.com/alancapvan
+- 💻 GitHub: [github.com/alancapvan](https://github.com/alancapvan)
