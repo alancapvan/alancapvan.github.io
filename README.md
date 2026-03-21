@@ -1,6 +1,6 @@
 # Alan Van – Portfolio
 
-Welcome to my personal portfolio website, built to showcase my projects, academic background, and interests in computer science and cybersecurity.
+Welcome to my personal portfolio website, built to showcase my projects, academic background, and interests in computer science,cybersecurity, and technology.
 
 This is the first website I’ve ever built, and it also marks my introduction to HTML, CSS, and JavaScript. It’s a hands-on way for me to explore front-end development while learning how to design and deploy a website from scratch.
 
@@ -10,13 +10,14 @@ This is the first website I’ve ever built, and it also marks my introduction t
 
 ## 📄 About This Site
 
-This site is written in plain HTML, CSS, and JavaScript and is hosted on [GitHub Pages](https://pages.github.com). It’s fully static and intentionally lightweight, designed for clarity and professionalism.
+This site is written in plain HTML, CSS, and JavaScript and is hosted on [GitHub Pages](https://pages.github.com). It’s fully static and lightweight, designed for clarity and professionalism.
 
 ### Sections:
 
 - **Home** – A brief personal intro and links to other sections
 - **About** – Background on who I am and what drives me
 - **Projects** – Summaries of technical and academic work
+- **Experience** – Work experience
 - **Education** – My degree details and relevant courses
 - **Resume** – Link to my downloadable resume PDF
 - **Contact** – Email, LinkedIn, GitHub
