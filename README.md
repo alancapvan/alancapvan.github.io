@@ -10,14 +10,13 @@ This is the first website I’ve ever built, and it also marks my introduction t
 
 ## 📄 About This Site
 
-This site is written in plain HTML, CSS, and JavaScript and is hosted on [GitHub Pages](https://pages.github.com). It’s fully static and lightweight, designed for clarity and professionalism.
+This site was written in plain HTML, CSS, and JavaScript and is hosted on [GitHub Pages](https://pages.github.com). It’s fully static and lightweight, designed for clarity and professionalism.
 
 ### Sections:
 
 - **Home** – A brief personal intro and links to other sections
 - **About** – Background on who I am and what drives me
 - **Projects** – Summaries of technical and academic work
-- **Experience** – Work experience
 - **Education** – My degree details and relevant courses
 - **Resume** – Link to my downloadable resume PDF
 - **Contact** – Email, LinkedIn, GitHub
